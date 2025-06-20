@@ -68,6 +68,8 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			// No changes to keyframes or animation, they are standard.
+			// No direct changes to fontFamily here as it's handled via CSS variables and utility classes.
 			keyframes: {
 				'accordion-down': {
 					from: {
